@@ -1,0 +1,86 @@
+:root{
+    --dark:#374151;
+    --darker:#1F2937;
+    --darkest:#111827;
+    --light:#EEE;
+}
+ 
+html,body{
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    border: 1px #374151;
+    background-image: url('bg.webp');
+}
+h1{
+    margin-bottom:4px ;
+    width: 390px;
+    align-self: center;
+    background-color: #F1C27D;
+   
+}
+.container{
+    width: 450px;
+   align-self: center;
+  height: 90vh;
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: #F1C27D;
+  border-radius: 30px;
+  padding: 15px;
+  margin: 18px;
+font-size: larger;
+  box-shadow:inset 5px 5px 20px #8f682d,
+            5px 5px 20px rgba(0,0,0,.3) ;
+  width: fit-content;
+  height: fit-content;
+}
+#inputField{
+    width: 300px;
+    height: 40px;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  background-color: #f0d8b5;
+    border: 2px rgb(70, 70, 70);
+    border-radius: 10px;
+    box-shadow: inset -5px -5px 12px #8f682d,
+                inset 5px 5px 12px rgba(0,0,0,.26);
+    color: rgba(70,70,70);
+}
+#add{
+    height: 40px;
+    width: 60px;
+    margin-left: 10px;
+    vertical-align: middle;
+    font-size: 20px;
+    text-align: center;
+    font-size: 23px;
+    background-color: #FFDBAC;
+    border: 1px;
+    box-shadow: -5px -5px 12px #d49a42,
+     5px 5px 12px rgba(0,0,0,.3) ;
+    border-radius: 8px;
+    cursor: pointer;
+}
+button:active{
+    transform: translateY(2px);
+}
+.to-dos{
+    margin-top:25px;
+    border-radius: 8px;
+    background-color: #c68642;
+}
+.paragraph-styling{
+margin: 0;
+width: auto;
+padding: 4px;
+cursor: pointer;
+font-size: 20px;
+}
