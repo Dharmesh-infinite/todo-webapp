@@ -84,3 +84,9 @@ padding: 4px;
 cursor: pointer;
 font-size: 20px;
 }
+
+.paragraph-styling:hover{
+    border: 2px solid rgb(6, 5, 5);
+    margin: 5px;
+    border-radius: 8px;
+}
